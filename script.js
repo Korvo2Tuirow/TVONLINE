@@ -10,6 +10,13 @@ let canais = [
     nome: "History",
     url: "https://br.embedflix.net/p2p/globosp_720p/chunks.m3u8",
   },
+
+  
+  {
+    canal: 03,
+    nome: "BBB",
+    url: "https://br.embedflix.net/p2p/bbb/chunks.m3u8",
+  },
   
 
 ];
