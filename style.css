@@ -20,6 +20,8 @@ header{
     align-items: center;
     color: #fff;
     font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .container{
@@ -43,6 +45,7 @@ header{
     gap: 30px;
     flex-wrap: wrap;
     margin: auto;
+    margin-top: 0;
     height:auto;
 }
 
