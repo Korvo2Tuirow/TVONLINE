@@ -1,0 +1,40 @@
+.model{
+    display: none;
+}
+
+html{
+    background: linear-gradient(90deg, rgba(4,0,36,1) 0%, rgba(120,9,121,1) 46%, rgba(89,0,255,1) 100%);
+}
+.btn{
+    display: flex;
+    padding: 10px;
+    border: 1px solid #190c52;
+    border-radius: 10%;
+    background-color: #140979;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: 5px 5px 15px #000;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.videoPlayer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    height: auto;
+}
+
+video{
+    display: flex;
+    
+    box-shadow: 15px 15px 10px #111;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(30, 21, 158) 100%);
+}
