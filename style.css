@@ -1,32 +1,15 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-   
-}
-
 .model{
     display: none;
 }
 
 html{
-    width: 100vw;
-    height: 100vh;
-   overflow: hidden;
-    background-color: #000;
-    
+    background: linear-gradient(90deg, rgba(4,0,36,1) 0%, rgba(120,9,121,1) 46%, rgba(89,0,255,1) 100%);
 }
-
-.container{
+container{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
-    margin: auto;
-    width: 1000px;
-    background: linear-gradient(90deg, #000 0%, #3002ff 46%,#000 100%);
+    justify-content: space-around;
 }
-
 .btn{
     display: flex;
     padding: 10px;
@@ -38,7 +21,6 @@ html{
     font-weight: bold;
     box-shadow: 5px 5px 15px #000;
 }
-
 .btns{
     display: flex;
     align-items: center;
@@ -57,14 +39,19 @@ html{
 
 video{
     display: flex;
-    background: linear-gradient(90deg, #000 0%, #3002ff 46%,#000 100%);
+    
+    box-shadow: 15px 15px 10px #111;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(30, 21, 158) 100%);
 }
-
 footer{
-    margin-top: 50px;
     display: flex;
+    justify-content: center;
     color: #fff;
-    padding: 10px;
-    font-size: 18px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
 
 }
+
+
+    
