@@ -4,50 +4,61 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://vjs.zencdn.net/8.0.4/video-js.css" rel="stylesheet" />
-    <script defer src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
     <link rel="stylesheet" href="style.css" />
     <script defer src="script.js"></script>
     <title>TV KORVO</title>
   </head>
   <body>
-    <!--https://br.embedflix.net/p2p/globosp_720p/chunks.m3u8-->
+    <!--https://br.embedflix.net/p2p/globosp_720p/chunks.m3u8
+
+      https://vjs.zencdn.net/8.0.4/video.min.js
+    
+    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>-->
     <div class="model">
-        <div class="modelBtn">
+      <div class="modelBtn">
         <div class="btn"></div>
-        </div>
+      </div>
     </div>
 
-    <div class="container">  
+    <div class="container">
 
-    <section class="btns"></section>
+      <section class="btns"></section>
 
-    <div class="videoPlayer">
-      <h1></h1>
-      <video
-        id="my-video"
-        class="video-js"
-        controls
-        width="auto"
-        height="auto"
-        data-setup="{}"
-      >
-        <source
-          src="https://br.embedflix.net/p2p/globosp_720p/chunks.m3u8"
-          type="application/x-mpegURL"
-        />
-      </video>
+      <div class="videoPlayer">
+        <video
+          id="my-video"
+          class="video-js"
+          controls
+          preload="auto"
+          width="auto"
+          height="720"
+          data-setup="{}"
+        >
+          <source
+            src="https://br.embedflix.net/p2p/bbb/chunks.m3u8"
+            type="application/x-mpegURL"
+          />
+        </video>
+
+        <button class="exit">SAIR</button>
+
+      </div>
+
+      <footer>
+        <p>
+          AVISO PRÉVIO: Não hospedamos nem transmitimos nenhum canal neste site,
+          apenas compartilhamos novamente os links IPTV gratuitos que já estão
+          na rede. Pedimos a todos os proprietários de direitos autorais que
+          reconheçam que os links contidos neste site estão localizados em algum
+          outro lugar da Web. Dirija todos os problemas de violação de direitos
+          autorais às empresas que hospedam esses arquivos. Esta pagina foi criada apenas para estudos de desenvolvimento web.
+        </p>
+      </footer>
     </div>
 
-    <footer>
-      <p>AVISO PRÉVIO: Não hospedamos nem transmitimos nenhum canal neste site, apenas compartilhamos novamente os links IPTV gratuitos que já estão na rede. Pedimos a todos os proprietários de direitos autorais que reconheçam que os links contidos neste site estão localizados em algum outro lugar da Web. Dirija todos os problemas de violação de direitos autorais às empresas que hospedam esses arquivos.</p>
-    </footer>
-</div>
-
-
-
-<!--AVISO PRÉVIO: Não hospedamos nem transmitimos nenhum canal neste site, apenas compartilhamos novamente os links IPTV gratuitos que já estão na rede. Pedimos a todos os proprietários de direitos autorais que reconheçam que os links contidos neste site estão localizados em algum outro lugar da Web. Dirija todos os problemas de violação de direitos autorais às empresas que hospedam esses arquivos.-->
+    <!--AVISO PRÉVIO: Não hospedamos nem transmitimos nenhum canal neste site, apenas compartilhamos novamente os links IPTV gratuitos que já estão na rede. Pedimos a todos os proprietários de direitos autorais que reconheçam que os links contidos neste site estão localizados em algum outro lugar da Web. Dirija todos os problemas de violação de direitos autorais às empresas que hospedam esses arquivos.-->
 
     <script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
+    
   </body>
 </html>
