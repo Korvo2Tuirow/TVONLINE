@@ -3,12 +3,18 @@
 }
 
 html{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     background: linear-gradient(90deg, rgba(4,0,36,1) 0%, rgba(120,9,121,1) 46%, rgba(89,0,255,1) 100%);
 }
 container{
+    
     display: flex;
+    height: 100vh;
     flex-direction: column;
-    justify-content: space-around;
+    align-content: space-around;
+    
 }
 .btn{
     display: flex;
