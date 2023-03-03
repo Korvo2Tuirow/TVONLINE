@@ -36,9 +36,5 @@ canais.map((item)=>{
 })
 
 
-//let btn = document.querySelector("button").addEventListener('click', ()=>{
 
-
-
-//})
 
