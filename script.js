@@ -71,7 +71,7 @@ function add() {
   link.rel = "stylesheet";
 
   let scriptHead = document.createElement("script");
-  scriptHead.src = "https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js";
+  scriptHead.src = "";
 
   head.appendChild(link);
   head.appendChild(scriptHead);
