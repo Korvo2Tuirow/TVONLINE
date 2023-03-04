@@ -71,7 +71,7 @@ function add() {
   link.rel = "stylesheet";
 
   let scriptHead = document.createElement("script");
-  scriptHead.src = "";
+  scriptHead.src = "http//vjs.zencdn.net/8.0.4/video.min.js";
 
   head.appendChild(link);
   head.appendChild(scriptHead);
