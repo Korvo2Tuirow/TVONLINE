@@ -1,7 +1,7 @@
 let canais = [
   {
     nome: "Globo",
-    url: "https://br.embedflix.net/p2p/globosp_720p/chunks.m3u8",
+    url: "https://br.embedflix.net/p2p/globo/chunks.m3u8",
     img: "https://tvonline.app/wp-content/uploads/2022/11/93cb68732da806c8532f8e24cd013f4d.jpg"
   },
   
@@ -55,6 +55,7 @@ canais.map((item, index) => {
 
      add();
 
+    
     videoPlayer.style.display = "flex";
   });
 
@@ -73,7 +74,7 @@ function add() {
   link.rel = "stylesheet";
 
   let scriptHead = document.createElement("script");
-  scriptHead.src = "https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js";
+  scriptHead.src = "https://vjs.zencdn.net/8.0.4/video.min.js";
 
   head.appendChild(link);
   head.appendChild(scriptHead);
