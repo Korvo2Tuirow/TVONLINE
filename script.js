@@ -51,7 +51,7 @@ canais.map((item, index) => {
     c(".videoPlayer source").src = canais[key].url;
     console.log(canais[key].url);
 
-     add();
+     
 
     videoPlayer.style.display = "flex";
   });
