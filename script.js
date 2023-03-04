@@ -42,8 +42,6 @@ canais.map((item, index) => {
   buttons.setAttribute("data-key",index);
   buttons.querySelector(".btn").innerHTML = item.nome;
   buttons.querySelector('.btn').style.backgroundImage = `url("${item.img}")`;
-  buttons.querySelector('.btn') 
-
   buttons.querySelector(".btn").addEventListener("click", (e) => {
     e.preventDefault();
 
