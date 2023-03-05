@@ -1,7 +1,7 @@
 let canais = [
   {
     nome: "Globo",
-    url: "https://br.embedflix.net/p2p/globo/chunks.m3u8",
+    url: "https//:br.embedflix.net/p2p/globo/chunks.m3u8",
     img: "https://tvonline.app/wp-content/uploads/2022/11/93cb68732da806c8532f8e24cd013f4d.jpg"
   },
   
